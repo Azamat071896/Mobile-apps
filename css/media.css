@@ -4,6 +4,8 @@
         text-align: center;
     }
     .line-border-col{
+        padding-left: 4.9px;
+        margin-top: 20px;
         text-align: center;
     }
 }
@@ -11,6 +13,10 @@
     .hero-text {
         font-size: 30px;
         line-height: 40px;
+    }
+    .section-title {
+        font-size: 25px;
+        line-height: 31px;
     }
   .about-title{
       font-size: 24px;
@@ -21,8 +27,9 @@
         margin-top: 24px;
     }
     .all-services-title{
-        font-size: 24px;
+        font-size: 23px;
         line-height: 30px;
+        text-align: center;
         position: relative;
         bottom: 60px;
     }
@@ -38,6 +45,7 @@
     }
     .portfolio-form-description-h6{
         padding-top: 50px;
+        line-height: 2;
     }
     .portfolio-form-input {
         height: 40px;
@@ -53,5 +61,10 @@
         position: relative;
         left: 26%;
         top: 20px;
+    }
+    .footer-description-p:before {
+        content: "";
+        position: absolute;
+        left: 5px;
     }
 }
