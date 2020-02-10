@@ -1,0 +1,57 @@
+@media (max-width: 776px){
+    .icon-wrap-ul{
+        display: block;
+        text-align: center;
+    }
+    .line-border-col{
+        text-align: center;
+    }
+}
+@media (max-width: 360px){
+    .hero-text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+  .about-title{
+      font-size: 24px;
+      line-height: 30px;
+  }
+    .about-img{
+        width: 345px;
+        margin-top: 24px;
+    }
+    .all-services-title{
+        font-size: 24px;
+        line-height: 30px;
+        position: relative;
+        bottom: 60px;
+    }
+    .all-services-button{
+        position: absolute;
+        left: 100px;
+    }
+    .all-project-img{
+        margin-left:-10px;
+    }
+    .footer-content {
+        margin-left: 90px;
+    }
+    .portfolio-form-description-h6{
+        padding-top: 50px;
+    }
+    .portfolio-form-input {
+        height: 40px;
+        width: 250px;
+        border-radius: 20px;
+        position: relative;
+        left: 17%;
+    }
+    .portfolio-form-button {
+        width: 180px;
+        border: none;
+        border-radius:  20px;
+        position: relative;
+        left: 26%;
+        top: 20px;
+    }
+}
