@@ -13,9 +13,24 @@ a, a:hover {
     text-decoration: none;
 }
 
+.header-fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 3;
+    background: rgba(52, 59, 64, 0.9);
+    padding: 20px 0;
+    border: none;
+}
+.header-fixed:before{
+    display: none;
+}
+
 header {
     position: absolute;
-    top: 25px;
+    top: 20px;
     width: 100%;
     z-index: 1;
 }
