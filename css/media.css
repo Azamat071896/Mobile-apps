@@ -1,22 +1,168 @@
-@media (max-width: 776px){
-    .icon-wrap-ul{
-        display: block;
+@media (max-width: 992px){
+    .mobile-btn{
+        display: flex;
+        z-index: 12;
+    }
+
+    .show-mobile-btn span{
+        background: transparent;
+    }
+    .show-mobile-btn span:before,
+    .show-mobile-btn span:after{
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .show-mobile-btn span:before{
+        transform: rotate(45deg);
+    }
+    .show-mobile-btn span:after{
+        transform: rotate(-45deg);
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: black;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: -100%;
+        z-index: 11;
+        transition: .7s;
+    }
+    .show-menu{
+        right: 0;
+    }
+    .footer-content{
+        margin-left: 100px;
+    }
+    li{
+        margin: 0 15px;
+    }
+
+    .line-border-col{
+        padding-left: 4.9px;
+        margin-top: 20px;
         text-align: center;
+    }
+    .nav__item{
+        margin-left: 10px;
+        line-height: 50px;
+    }
+    .nav__item:before{
+        bottom: -5px;
+    }
+    .all-services-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about-img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .video-player{
+        max-width: 850px;
+    }
+}
+
+
+@media (max-width: 776px){
+
+    li{
+        margin: 0 10px;
+    }
+    .all-services-title {
+        font-size: 30px;
+        line-height: 40px;
     }
     .line-border-col{
         padding-left: 4.9px;
         margin-top: 20px;
         text-align: center;
     }
+    .nav__item{
+        margin-left: 10px;
+        line-height: 50px;
+    }
+    .nav__item:before{
+        bottom: -5px;
+    }
+    .services-svg{
+        margin: auto;
+    }
+    .video-player{
+        max-width: 700px;
+        border-radius: 50px;
+    }
+    .video-player:after {
+        margin-top: 38%;
+    }
+    .footer-description-p:before {
+        left: 2px;
+    }
+    .footer-content{
+        margin-left: 80px;
+    }
+    .about-img{
+        width: 100%;
+        padding-top: 20px;
+    }
 }
-@media (max-width: 360px){
+
+@media (max-width:480px){
     .hero-text {
-        font-size: 30px;
+        font-size: 32px;
         line-height: 40px;
     }
     .section-title {
+        font-size: 30px;
+    }
+    .icon-wrap-ul {
+        display: block;
+        text-align: center;
+    }
+    .all-services-title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .all-services-button {
+        padding: 11px 32px 11px;
+    }
+    .video-player {
+        max-width: 450px;
+    }
+    .video-player:after {
+        margin-top: 60%;
+    }
+    .portfolio-form-input {
+        height: 40px;
+        width: 250px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .portfolio-form-button {
+        width: 250px;
+        border: none;
+        border-radius:  20px;
+        position: relative;
+        left: 0;
+    }
+}
+
+
+
+
+@media (max-width: 360px){
+    .hero-text {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .section-title {
         font-size: 25px;
-        line-height: 31px;
+        line-height: 30px;
     }
   .about-title{
       font-size: 24px;
@@ -32,6 +178,7 @@
         text-align: center;
         position: relative;
         bottom: 60px;
+        left: 12px;
     }
     .all-services-button{
         position: absolute;
@@ -51,20 +198,34 @@
         height: 40px;
         width: 250px;
         border-radius: 20px;
-        position: relative;
-        left: 17%;
+        margin-bottom: 10px;
     }
     .portfolio-form-button {
-        width: 180px;
+        width: 250px;
         border: none;
         border-radius:  20px;
         position: relative;
-        left: 26%;
-        top: 20px;
+        left: 0;
     }
     .footer-description-p:before {
         content: "";
         position: absolute;
         left: 5px;
+    }
+    .nav__item{
+        margin-left: 10px;
+        line-height: 50px;
+    }
+    .nav__item:before{
+        bottom: -5px;
+    }
+    .video-player{
+        max-width: 350px;
+    }
+    .video-player:after {
+        margin-top: 80%;
+    }
+    .icon-wrap-ul {
+        display: block;
     }
 }

@@ -1,4 +1,4 @@
-/*HEADER HEADER*/
+/*HEADER*/
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -80,10 +80,44 @@ header:before {
     color: #4985FF;
 }
 
-/*HEADER HEADER*/
+.mobile-btn{
+    width: 55px;
+    height: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.mobile-btn span{
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    display: inline-block;
+    position: relative;
+}
+.mobile-btn span:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: -10px;
+    transition: .5s;
+}
+.mobile-btn span:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 10px;
+    transition: .5s;
+}
+
+/*HEADER*/
 
 
-/*HERO HERO*/
+/*HERO*/
 #hero {
     background: rgba(0, 0, 0, 0.5) fixed url("../images/background1.png") no-repeat center/cover;
     background-blend-mode: darken;
@@ -127,13 +161,12 @@ header:before {
     background: #fff;
 }
 
-/*HERO HERO*/
+/*HERO*/
 
 
-/*SERVICES SERVICES*/
+/*SERVICES*/
 #services {
     padding: 110px 0;
-
 }
 
 .section-title {
@@ -165,7 +198,6 @@ header:before {
     position: relative;
     float: left;
     clear: both;
-
 }
 
 .services-items-svg:before {
@@ -218,9 +250,9 @@ header:before {
     background: lightgreen;
 
 }
-/*SERVICES SERVICES*/
+/*SERVICES*/
 
-/*ABOUT ABOUT*/
+/*ABOUT*/
 #about-us{
     padding:100px 0 0 0;
     background: #F6F6F8;
@@ -264,10 +296,9 @@ header:before {
 }
 .icon-wrap-ul{
     display: flex;
-    justify-content: center;
 }
 li{
-    margin: 0 50px;
+    margin: 0 55px;
     list-style-type: none;
 }
 .about-icon-text{
@@ -275,9 +306,10 @@ li{
     line-height: 25px;
     color: #999999;
 }
-/*ABOUT ABOUT*/
+/*ABOUT*/
 
-/*all-services all-services*/
+
+/*ALL-SERVICES*/
 #all-services{
     padding:100px 0 85px 0;
     background: linear-gradient(to top, #fff 50%, #5F12D0 50%);
@@ -288,9 +320,7 @@ li{
     line-height: 53px;
     color: #FFFFFF;
 }
-.all-project-img{
 
-}
 
 .all-services-button {
     display: inline-block;
@@ -341,9 +371,11 @@ li{
     border-bottom: 1px solid #E0E0E0;
     padding-bottom:85px;
 }
-/*all-services all-services*/
+/*ALL-SERVICES*/
 
-/*all-projects all-projects*/
+
+
+/*ALL-PROJECTS*/
 #all-projects{
     padding:100px 0 130px 0;
 }
@@ -366,13 +398,9 @@ li{
     background:#86abf6;
     color:#fff;
 }
-/*all-projects all-projects*/
+/*ALL-PROJECTS*/
 
-
-
-/*footer footer*/
-
-
+/*VIDEO*/
 
 #video{
     position: relative;
@@ -388,10 +416,7 @@ li{
     margin:0 auto;
     position:relative;
     top:-20px;
-
 }
-
-
 .play-button {
     color: #fff;
     background: transparent;
@@ -415,10 +440,8 @@ li{
 .play-icon{
     width: 60px;
     height: 60px;
-    /*border: 1px solid #E0E0E0;*/
     background: #fff;
     border-radius: 60px;
-
 }
 .triangle{
     z-index: 11;
@@ -436,8 +459,11 @@ li{
     border-top: 1px solid #E0E0E0;
     margin-top: 28%;
 }
+/*VIDEO*/
 
 
+
+/*POTRTFOLIO*/
 #portfolio{
     padding: 200px 0 60px;
 }
@@ -464,8 +490,7 @@ li{
     border: none;
     padding: 0 30px;
     border-radius: 20px 0 0 20px;
-    position: relative;
-    left: 36%;
+
 }
 
 
@@ -479,9 +504,14 @@ li{
     cursor: pointer;
     transition: .4s;
     border-radius: 0 20px 20px 0;
-    position: absolute;
-    right: 36%;
+    margin: 0 auto;
+    position: relative;
+    right: 5px;
 }
+/*POTRTFOLIO*/
+
+
+/*FOOTER*/
 
 #footer{
     background: #f5f5f6;
@@ -524,6 +554,5 @@ li{
     bottom: 60px;
     width: 100%;
     border-top: 1px solid #E0E0E0;
-
 }
-
+/*FOOTER*/
